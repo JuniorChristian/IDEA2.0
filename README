@@ -1,18 +1,65 @@
 Welcome to your Appcelerator Titanium Mobile Project
 
-This is a blank project.  Start by editing your application's app.js to 
-make your first mobile project using Titanium.
+--------------|Guide for the setup of the program|--------
+
+                                                     Programs needed :
+
+/case1/. If you want to work with your own Pc and is not a Macbook.
+
+a. Download Wmare Worstation 10 that you can find in Torrentz.com
+b. Download OS 10.10 Yosemite VMware Image also from torrentz.com( if with this version of Mac os, you are able to simulate,good! 
+ otherwise you have to download the latest available version of Mac OS
+c. Download Xcode 6.2.
+d. Create a Titanium account and download Titanium Studio for Mac
+ 
+
+/Case2/. If you are using the Mac mini provided by the professor.
+a.you don't need to install Wmare Worstation 10
+b.the Mac mini is running with Mavericks 10.9.5 and Xcode 6.2. we were able to run our app with those versions, if the latest available version of 
+Xcode is not compatible with mavericks you will need to update the system, but FIRST ask the permission to the professor!
 
 
 
-----------------------------------
-Stuff our legal folk make us say:
+/Case3/. If you are using a Macbook of your own property
+a.you need to have install OS 10.10 Yosemite otherwise you will have to update it depending on the compatibility with Xcode.
+b.Download Xcode6.2 or latest.
+c.Create a Titanium account and download titanium Studio for Mac
 
-Appcelerator, Appcelerator Titanium and associated marks and logos are 
-trademarks of Appcelerator, Inc. 
 
-Titanium is Copyright (c) 2008-2013 by Appcelerator, Inc. All Rights Reserved.
+                                                  Programs installations
 
-Titanium is licensed under the Apache Public License (Version 2). Please
-see the LICENSE file for the full license.
+1. Install Titanium Studio
+
+Prerequisites: Mac OS X with XCode installed
+
+/*Install Titanium Studio which will move to “ Appcelerator Platform “
+By June 30, 2015, in fact Titanium Studio will be retired in favor of Appcelerator Studio, part of the Appcelerator Platform.*/
+
+Install Titanium Studio
+1. Go to http://www.appcelerator.com/titanium/
+2. Sign in and login with the data sent via email
+3. Go to “My Resources”
+4.Download Titanium Studio for Mac
+5. Click on File -> Import -> Git Repository as New Project
+6. Under “URL” insert https://github.com/JuniorChristian/IDEA2.0.git
+
+2. Install Yosemite
+
+1.Wmare Workstation
+as specify before if you want to work on your machine and you don't have a Mac, you need to install Wmare Workstation
+procedure on this link : 
+this is not exhaustive you can find better tutorial
+
+
+
+3. Apple Certification procedure
+we follow this guide:
+http://code.tutsplus.com/tutorials/how-to-test-your-apps-on-physical-ios-devices--mobile-13861
+It is not updated to the latest interface of Apple's site, but it is the best we found.
+
+
+4. The launch of the app can be done in two ways:
+1.simulator: right click on “IDEA” in the Project Explorer to the right -> Run As -> iPhone Retina (3.5inch).
+2.iPhone: complete the certification process, will appear under the "Run As" Also the device, which will be installed in the app.
+
 
