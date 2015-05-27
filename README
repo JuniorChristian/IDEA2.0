@@ -1,9 +1,11 @@
                                     Welcome to your Appcelerator Titanium Mobile Project
 
                                   
-                                       Guide for the setup of the program    
+                                       Guide for the setup of the program 
+                                       -----------------------------------   
                                
 PartA:
+------
 
 Here, we give the chronological steps that need to be computed.In the following PartB,more details will be provided about how to install them:
 
@@ -18,6 +20,7 @@ Here, we give the chronological steps that need to be computed.In the following 
 9. After the Apple Certification Procedure ,the app can be launched from the device (iphone 4s)
 
 PartB:
+------
 
 Here we provide more informations about what mentioned in PartA:
 
@@ -76,18 +79,28 @@ Here we provide more informations about what mentioned in PartA:
       
       
    PartC :
+   -------
    
-   Here we provide informations about the different file that compose our project
+   Here we provide informations about the different file that compose our project:
    
+   Structure of the Package:
    
+   1.The folder "android" & "mobileweb" are present by default when you create your project as well as "Changelog.txt","License","License.txt","manifest","tiapp.xml"
+     a.Although the setup should be done automatically, check in "tiapp.xml" the presence of "ti.barcode" under "modules", and that "Deployment Targets" are selected "iPhone" and "iPad".
+   3.The folder "modules" contains the form of barcode scanner and was not used by us (if not to take the base code).
    
-   
-   
-   
+   4.The folder "Resources" contains:
+     a. "iphone", contains images used from the app
+     b. "app.js" is a kind of main for us,where we recall other file and implement the design of the GUI of our app
+     c. "help.js" contains the tab "Help" where we provide some definition about some words that we use,how to scan the Qrcode and how the navigation works.
+     d. "FindPath.js" contained in the tab "Nav" contains the implementation of the algorithm of calculation of the shortest path (Dijkstra),the navigation algorithm and the graph of the floor that we mapped
+     e. "qrcode.js" contains the tab with the QR Code scanner
+     f. "h3.png","qrscan2.png","KS_nav_ui.png","KS_nav_views.png","navidea.png" are the images used for our different tab.
    
    
  
- NB:                                                
+    NB: 
+    ---                                               
                                                     
     1. we have installed Wmare Workstation 10 and Yosemite because none of us had a macbook, if you have one just skip the first three points of PartB and start from point 4. 
     2. If you are working on the mac mini provided by the professor,you will start as well from point 4.
@@ -96,7 +109,7 @@ Here we provide more informations about what mentioned in PartA:
     4. a. In our Virtual machine,we have installed Yosemite + Xcode 6.2 + old and new versions of titanium sdk
        b. In the mac mini,it was installed Mavericks + Xcode 6.2 + old and new versions of titanium sdk
        everything works well in both cases after setting titanium sdk to the version 3.4.1                                         
-                                                     
+    5. The link provided for the installation of all the programs are not exhaustive,you can find other link that are even better on google or youtube.                                                
 
 
                                                 
