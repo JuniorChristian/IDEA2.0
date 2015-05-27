@@ -1,7 +1,74 @@
-Welcome to your Appcelerator Titanium Mobile Project
+                                    Welcome to your Appcelerator Titanium Mobile Project
 
---------------|Guide for the setup of the program|--------
+                                           Guide for the setup of the program
 
+PartA:
+
+Here, we give the chronological steps that need to be computed.In the following PartB,more details will be provided about how to install them:
+
+1. Download and install Wmare Workstation 10 ( you can find it from Torrentz.com ).
+2. Download OS 10.10 Yosemite VMware Image ( also from Torrentz.com ).
+3. Download and install 7zip program,it helps you to extract the Yosemite image.
+4. Install Yosemite in the Wmare workstation 10.
+5. Once Yosemite installed,go to AppStore and download Xcode 6.2
+6. Create a Titanium appcelerator account and download Titanium studio for Mac ( it's not possible to download it without an account ).
+7. Import your project from Github in titanium studio.
+8. Launch the simulation of the app in the simulator.
+9. After the Apple Certification Procedure ,the app can be launch from the device (iphone 4s)
+
+PartB:
+
+Here we provide more informations about what mentioned in PartA:
+
+1. Install Wmare Workstation 10:
+   A link that shows how to install Wmare Workstation 10 on windows : https://www.youtube.com/watch?v=w591rYXjl7g
+2. Install Yosemite :
+   After downloading the OS 10.10 Yosemite Vmware Image
+   a. Enter in the folder "Vmware Unlocker-Mac OS X Guest"-->"VMware 8.x + 9.x + 10.x series"-->"Vmware Workstation Unlocker-Windows"
+   b. Right click on "Unlocker" and "Run as administrator".
+   c. In the main folder "OS 10.10 Yosemite Vmware Image",extract the file "OS X 10.10 Yosemite Image.7z" with 7zip program.
+   d. Open the folder just extracted previously and double click on the file ".vmx"
+   e. Modify the settings of the virtual machine, at least 2 GB of RAM, 2 processors.
+   f. Launch the virtual machine, if asked about the origine of the image,just click on "I copied it".
+   g. After completing the installation of the OS yosemite, From the menu bar,choose"VM"-->"Removable Devices"-->CD/DVD-->Settings-->use ISO file and choose "darwin.iso" that you find 
+   in "OS 10.10 Yosemite VMware Image"-->"Vmware Unlocker-Mac OS X Guest"--> "Vmware 8.x + 9.x + 10.x series"--> "Tools"
+   h. Double click on the "darwin.iso" file to effectively install it.
+3. Install 7zip program :
+   After downloading the 7zip program, go to the "readme" file and follow the instructions : http://www.7-zip.org/download.html
+4. Install Titanium Studio:
+   Once downloaded titanium studio 
+   a. Open the file ".dmg" and drag the folder "Titanium Studio" in "Applications".
+   b. Open Titanium Studio:
+      b1. it can ask you to insert your titanium appcelerator username and password ( the same you use for the download ) before proceeding. 
+      b2. it will ask you an updated version of java, click on "more info" to be redirected to the download page
+      b3. it will ask you to update to the last version of titanium Sdk,if not, go to the menu bar ,to the top right : "Help"-->Install titanium sdk --> click on "install from update stream"
+   c. Open AppStore and download Xcode 6.2
+      c1. by clicking on "Install app", you will be asked to insert you apple ID and the password
+      c2. Open Xcode,after completing the installation, go to the top left --> "Preferences"-->"Downloads" and download everything
+      c3. install the command lines tools for Xcode.
+   d. Go in Titanium Studio --> "Preferences"-->"Studio"-->"accounts" and insert your Github account,after it's validated close the window.
+   e. In the left column (Project Explorer),right click --> "Import"-->"Git" -->"Git Repository as new project" and under "URL" insert the Github link of your project,
+    in our case : https://github.com/JuniorChristian/IDEA2.0
+    
+   f. Now in the "Project Explorer"  you should have the name of your project.
+   
+ 5. Github
+   a. what is Github : https://www.youtube.com/watch?v=E8TXME3bzNs
+   b. how it works : https://www.youtube.com/watch?v=GCBROgPCox0
+   c. sign in and create a repository :  https://github.com
+ 6. Launch the Simulation of the app
+   different way of doing that:
+   a. simulator: right click on “IDEA2.0” in the Project Explorer to the left -> Run As -> iPhone Retina (3.5inch)/iphone4s.
+   b. iphone :
+      b1. Apple Certification procedure
+          Call the professor, he is the one giving you the permission and to understand better how it works follow this guide:
+          http://code.tutsplus.com/tutorials/how-to-test-your-apps-on-physical-ios-devices--mobile-13861
+          It is not updated to the latest interface of Apple's site, but it is the best we found.
+      b2. complete the certification process, the device will appear under the "Run As",click on it and the app will be transferred on it.
+ 
+                                                    
+                                                    
+                                                    
                                                      Programs needed :
 
 /case1/. If you want to work with your own Pc and is not a Macbook.
