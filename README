@@ -108,7 +108,8 @@ Here we provide more informations about what mentioned in PartA:
        it should be verified if it's still possible to run our app on it.  
     4. a. In our Virtual machine,we have installed Yosemite + Xcode 6.2 + old and new versions of titanium sdk
        b. In the mac mini,it was installed Mavericks + Xcode 6.2 + old and new versions of titanium sdk
-       everything works well in both cases after setting titanium sdk to the version 3.4.1                                         
+       everything works well in both cases after setting titanium sdk to the version 3.4.1
+       if with the new version of Mac os there are some issues running the app,install the previous version of titanium sdk and try them all.                                         
     5. The link provided for the installation of all the programs are not exhaustive,you can find other link that are even better on google or youtube.                                                
 
 
