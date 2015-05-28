@@ -63,8 +63,8 @@ Here we provide more informations about what mentioned in PartA:
    e. Now in the "Project Explorer"  you should have the name of your project.
 
 6. GITHUB 
-   a. what is Github : https://www.youtube.com/watch?v=E8TXME3bzNs
-   b. how it works : https://www.youtube.com/watch?v=GCBROgPCox0
+   a. what is Github? : https://www.youtube.com/watch?v=E8TXME3bzNs
+   b. how it works? : https://www.youtube.com/watch?v=GCBROgPCox0
    c. sign in and create a repository :  https://github.com
    
  7. LAUNCH THE SIMULATION OF THE APP 
@@ -95,7 +95,7 @@ Here we provide more informations about what mentioned in PartA:
      c. "help.js" contains the tab "Help" where we provide some definition about some words that we use,how to scan the Qrcode and how the navigation works.
      d. "FindPath.js" contained in the tab "Nav" contains the implementation of the algorithm of calculation of the shortest path (Dijkstra),the navigation algorithm and the graph of the floor that we mapped
      e. "qrcode.js" contains the tab with the QR Code scanner
-     f. "h3.png","qrscan2.png","KS_nav_ui.png","KS_nav_views.png","navidea.png" are the images used for our different tab.
+     f. "h3.png","qrscan2.png","navidea.png" are the images used for our different tab.
    
    
  

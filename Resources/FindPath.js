@@ -1,7 +1,7 @@
 /* 
  
  the function FindPath returns an array of direction
- it receives in input the location entered by the user( departure and destination )
+ it receives as input the location entered by the user( departure and destination )
  
 */
 
@@ -105,7 +105,7 @@ function Graph(){
 // graph of half of the DISI floor, not all locations where mapped ,only the most interesting one for us
 var g = new Graph();
 
-// we add the node to the graph with their neighbor and the distance that separate them
+// we add the nodes to the graph with their neighbor and the distance that separate them
 g.addVertex('A', {B: 9, DKM1Room: 1 }); 
 g.addVertex('B', {A: 9, U: 4, EastStairs: 1}); 
 g.addVertex('C', {D: 6, V: 4, H: 5}); 

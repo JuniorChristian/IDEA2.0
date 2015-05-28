@@ -9,7 +9,7 @@ var theFindPath = new FindPath(__a,__b);
 var QRCODE = new Qr();
 var HelpWindow = new HELP ();
 
-// a tabgroup to contain the navigation window, qrcode window and help window
+// a tabgroup that contains the navigation window, qrcode window and help window
 var tabGroup = Ti.UI.createTabGroup();
 
 // our main window that contains all

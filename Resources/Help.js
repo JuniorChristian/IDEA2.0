@@ -56,6 +56,7 @@ function HelpWindow(title) {
 		{
 			title: 'QR CODES DISPOSITION', 
 			text: 'QR Codes are placed at about the height of your head, giving your back to the door you find the Qrcodes on your left side when starting from a POI and when arriving to a POI you still find them on your left side'
+			    + '. We use QRcode only as a checkpoint i.e to check where you are and if you arrive at the destination specified'
 		},
 		{
 			title: 'HOW TO SCAN?', 

@@ -1,5 +1,5 @@
 
-function qrcode() 
+function ScannerWindow() 
 {
 	var self = Ti.UI.createWindow({
 		title:'QR Scan',
@@ -137,10 +137,12 @@ scrollView.add(scanParsed);
 
 
 
-
+  
+ 
 function parseContentType(contentType) {
     switch (contentType) {
         
+         
            default:
            return 'UNKNOWN';
     }
@@ -172,4 +174,4 @@ function parseResult(event) {
 
  };
  
-module.exports = qrcode;
+module.exports = ScannerWindow;
